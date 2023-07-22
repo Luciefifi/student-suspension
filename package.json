@@ -1,0 +1,28 @@
+{
+  "name": "student-suspension-be",
+  "version": "1.0.0",
+  "description": "student suspension system backend",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucie fifi",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.8.0",
+    "apollo-server-core": "^3.12.0",
+    "apollo-server-express": "^3.12.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "graphql": "^16.7.1",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.1.6"
+  }
+}
