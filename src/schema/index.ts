@@ -15,7 +15,8 @@ const typeDefs = gql`
 
  }
  type Mutation {
-    addStudent(Fname: String!, Lname: String!, age: Int!, sex: String!): Student!
+    addStudent(Fname: String!, Lname: String!, age: Int!, sex: String!, regNumber: Int!): Student!
+ }
 `
 
 export default typeDefs;
