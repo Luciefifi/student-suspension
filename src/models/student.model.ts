@@ -2,7 +2,12 @@ import mongoose from "mongoose";
 import { Schema } from "mongoose";
 
 const studentSchema =  new Schema ({
-    name:{
+    fName:{
+        type:String,
+        required: true
+
+    },
+    lName:{
         type:String,
         required: true
 
