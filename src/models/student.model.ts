@@ -23,6 +23,10 @@ const studentSchema =  new Schema ({
     regNumber:{
         type:Number,
         required:true
+    },
+    level:{
+        type:Number,
+        required:true
     }
 })
 
